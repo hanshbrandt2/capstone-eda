@@ -1,0 +1,25 @@
+# Data ships as year-range parquet shards, each under GitHub's 100 MB per-file
+# limit, so the notebooks run from a clean clone. Other build artifacts in
+# data/ stay local.
+data/*
+!data/matrix_*.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

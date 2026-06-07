@@ -1,0 +1,10 @@
+polars>=0.20
+pandas>=2.0
+numpy
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+nbformat
+jupyter
+jupyterlab
